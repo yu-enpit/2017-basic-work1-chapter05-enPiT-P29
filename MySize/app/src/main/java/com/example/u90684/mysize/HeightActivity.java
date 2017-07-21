@@ -60,7 +60,6 @@ public class HeightActivity extends AppCompatActivity {
             @Override
             public  void onStopTrackingTouch(SeekBar seekBar) { }
         });
-
         RadioGroup radio = (RadioGroup) findViewById(R.id.radioGroup);
         radio.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
