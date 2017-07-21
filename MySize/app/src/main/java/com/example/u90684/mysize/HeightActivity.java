@@ -64,6 +64,7 @@ public class HeightActivity extends AppCompatActivity {
         RadioGroup radio = (RadioGroup) findViewById(R.id.radioGroup);
         radio.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
+
             public void onCheckedChanged(RadioGroup group, int checkedId) {
                 RadioButton radioButton =
                         (RadioButton) findViewById(checkedId);
