@@ -25,6 +25,7 @@ public class HeightActivity extends AppCompatActivity {
         SharedPreferences pref
                 = PreferenceManager.getDefaultSharedPreferences(this);
         int height = pref.getInt(HEIGHT, 160);
+        mHeight.setText(String.valueOf(height));
 
         Spinner spinner = (Spinner) findViewById(R.id.spinner);
         spinner.setOnItemSelectedListener
